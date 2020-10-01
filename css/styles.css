@@ -1,5 +1,5 @@
 body {
-  letter-spacing: 0.2rem; }
+  letter-spacing: 0.02rem; }
 
 .nameHeader p {
   line-height: 1.6; }
@@ -39,22 +39,34 @@ body {
     font-size: 5rem; }
 
   .display-3 {
-    font-size: 4rem; } }
-@media all and (max-width: 850px) {
-  .display-2 {
-    font-size: 4.5rem; }
-
-  .display-3 {
-    font-size: 3.5rem; } }
-@media all and (max-width: 650px) {
-  .display-2 {
     font-size: 4rem; }
 
+  .display-4 {
+    font-size: 3.5rem; } }
+@media all and (max-width: 850px) {
+  .display-2 {
+    font-size: 3.5rem; }
+
   .display-3 {
-    font-size: 3.2rem; } }
+    font-size: 2.5rem; }
+
+  .display-4 {
+    font-size: 2rem; } }
+@media all and (max-width: 650px) {
+  .display-2 {
+    font-size: 3rem; }
+
+  .display-3 {
+    font-size: 2.2rem; }
+
+  .display-4 {
+    font-size: 1.8rem; } }
 @media all and (max-width: 550px) {
   .display-2 {
-    font-size: 4.2rem; }
+    font-size: 2.5rem; }
+
+  .display-4 {
+    font-size: 2rem; }
 
   /* .display-3 {
       font-size: 3.2rem;
