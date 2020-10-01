@@ -1,0 +1,32 @@
+@media all and (max-width: 995px){
+    .display-2 {
+        font-size: 5rem;
+    }
+    .display-3 {
+        font-size: 4rem;
+    }
+}
+@media all and (max-width: 850px){
+    .display-2 {
+        font-size: 4.5rem;
+    }
+    .display-3 {
+        font-size: 3.5rem;
+    }
+}
+@media all and (max-width: 650px){
+    .display-2 {
+        font-size: 4rem;
+    }
+    .display-3 {
+        font-size: 3.2rem;
+    }
+}
+@media all and (max-width: 550px){
+    .display-2 {
+        font-size: 4.2rem;
+    }
+    /* .display-3 {
+        font-size: 3.2rem;
+    } */
+}

@@ -1,0 +1,20 @@
+//bgc color
+$myBgc : #262626;
+
+//navbar
+$myNavColor: #333;
+
+//gap
+$myGapColor: #484848;
+
+//text-light
+$myLight: whitesmoke;
+//text
+
+body {
+    background-color: $myBgc;
+}
+.navbar {
+    background-color: $myBgc;
+    
+}

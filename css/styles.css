@@ -1,0 +1,63 @@
+body {
+  letter-spacing: 0.2rem; }
+
+.nameHeader p {
+  line-height: 1.6; }
+  .nameHeader p :nth-child(3) {
+    line-height: 0; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+/***********JUST A TRY FOR THE GRID**********/
+/************************************************/
+/* Remember, use bootstrap grid at all times. is an exercise of that!*/
+.name {
+  margin-bottom: 0; }
+
+.nameHeader {
+  padding-top: 10rem; }
+
+body {
+  background-color: #262626; }
+
+.navbar {
+  background-color: #262626; }
+
+.nav-main li {
+  list-style: none; }
+  .nav-main li a {
+    text-decoration: none; }
+
+@media all and (max-width: 995px) {
+  .display-2 {
+    font-size: 5rem; }
+
+  .display-3 {
+    font-size: 4rem; } }
+@media all and (max-width: 850px) {
+  .display-2 {
+    font-size: 4.5rem; }
+
+  .display-3 {
+    font-size: 3.5rem; } }
+@media all and (max-width: 650px) {
+  .display-2 {
+    font-size: 4rem; }
+
+  .display-3 {
+    font-size: 3.2rem; } }
+@media all and (max-width: 550px) {
+  .display-2 {
+    font-size: 4.2rem; }
+
+  /* .display-3 {
+      font-size: 3.2rem;
+  } */ }
+
+/*# sourceMappingURL=styles.css.map */
