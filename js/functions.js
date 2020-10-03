@@ -10,8 +10,8 @@ class txtRotate {
         this.loopNum    = 0;
         this.period     = parseInt(period, 10) || 2000;
         this.txt        = "";
-        this.tick();
         this.isDeleting = false;
+        this.tick();
 
     }
 
@@ -161,11 +161,40 @@ const showYear = () => new Date().getUTCFullYear();
 //print
 today.innerHTML = showYear();
 
-//show contact
-/* function openContact() {
+//burger menu
 
-    (contactForm.style.display === "none") ? contactForm.style.display === "block" : contactForm.style.display === "none";
+ document.querySelector('.menu-btn').addEventListener('click', () => {
 
-} */
+    document.querySelector('.nav-menu').classList.toggle('show');
+ })
 
+//listener
+
+
+
+
+$(document).ready(function () {
+	let previousScroll = 0;
+	$(window).scroll(function () {
+		let currentScroll = $(this).scrollTop();
+		if (currentScroll < 100) {
+			showTopNav();
+		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
+			if (currentScroll > previousScroll) {
+				hideNav();
+			} else {
+				showNav();
+			}
+			previousScroll = currentScroll;
+		}
+	});
+
+	function hideNav() {
+		$(".navbar").removeClass("is-visible").addClass("is-hidden");
+	}
+
+	function showNav() {
+		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
+	}
+});
 

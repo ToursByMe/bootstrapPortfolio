@@ -34,6 +34,13 @@ body {
   .nav-main li a {
     text-decoration: none; }
 
+.menu-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 3.5rem;
+  right: 5rem;
+  z-index: 2; }
+
 @media all and (max-width: 995px) {
   .display-2 {
     font-size: 5rem; }
@@ -42,7 +49,34 @@ body {
     font-size: 4rem; }
 
   .display-4 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+
+  #myNav ul {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vw;
+    transform: translateX(90rem);
+    -webkit-transform: translateX(90rem);
+    -moz-transform: translateX(90rem);
+    -ms-transform: translateX(90rem);
+    -o-transform: translateX(90rem);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    opacity: .8; }
+    #myNav ul li {
+      padding: 0 2rem 0 0; }
+
+  #myNav ul.nav-menu.show {
+    transform: translateX(3rem);
+    -webkit-transform: translateX(3rem);
+    -moz-transform: translateX(3rem);
+    -ms-transform: translateX(3rem);
+    -o-transform: translateX(3rem); } }
 @media all and (max-width: 850px) {
   .display-2 {
     font-size: 3.5rem; }
@@ -51,7 +85,14 @@ body {
     font-size: 2.5rem; }
 
   .display-4 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 3.5rem;
+    right: 3rem;
+    z-index: 2; } }
 @media all and (max-width: 650px) {
   .display-2 {
     font-size: 3rem; }
