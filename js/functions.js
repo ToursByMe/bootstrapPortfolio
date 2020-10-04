@@ -175,10 +175,9 @@ $(document).ready(() => {
 });
 
 //scroll view
-ScrollReveal().reveal('.myHeader', {delay:250});
-ScrollReveal().reveal('.aboutMe', {delay: 400});
-ScrollReveal().reveal('.services', {delay: 400});
-ScrollReveal().reveal('.works', {delay: 400});
-ScrollReveal().reveal('.contactMe', {delay: 400});
-ScrollReveal().reveal('.myFooter', {delay: 400});
+ScrollReveal().reveal('.aboutMe', {delay: 300});
+ScrollReveal().reveal('.services', {delay: 300});
+ScrollReveal().reveal('.works', {delay: 300});
+ScrollReveal().reveal('.contactMe', {delay: 300});
+ScrollReveal().reveal('.myFooter', {delay: 300});
 

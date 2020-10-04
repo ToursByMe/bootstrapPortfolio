@@ -32,8 +32,11 @@ li {
     width: 65vw;
     height: auto;
 }
-//style liks
 
+//style links
+html {
+    scroll-behavior: smooth;
+}
 .nav-main {
     @include myLinks;
 }
