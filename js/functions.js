@@ -181,3 +181,5 @@ ScrollReveal().reveal('.works', {delay: 300});
 ScrollReveal().reveal('.contactMe', {delay: 300});
 ScrollReveal().reveal('.myFooter', {delay: 300});
 
+
+
