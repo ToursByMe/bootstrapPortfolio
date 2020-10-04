@@ -174,4 +174,11 @@ $(document).ready(() => {
     $('#cookiesModal').modal('show');
 });
 
+//scroll view
+ScrollReveal().reveal('.myHeader');
+ScrollReveal().reveal('.aboutMe', {delay: 500});
+ScrollReveal().reveal('.services', {delay: 500});
+ScrollReveal().reveal('.works', {delay: 500});
+ScrollReveal().reveal('.contactMe', {delay: 500});
+ScrollReveal().reveal('.myFooter', {delay: 500});
 
