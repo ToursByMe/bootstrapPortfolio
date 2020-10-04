@@ -168,17 +168,15 @@ today.innerHTML = showYear();
     document.querySelector('.nav-menu').classList.toggle('show');
  })
 
-//listener
 
-
-
+ //fixed menu top
 
 $(document).ready(function () {
 	let previousScroll = 0;
 	$(window).scroll(function () {
 		let currentScroll = $(this).scrollTop();
 		if (currentScroll < 100) {
-			showTopNav();
+			//showTopNav();
 		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
 			if (currentScroll > previousScroll) {
 				hideNav();
@@ -197,4 +195,11 @@ $(document).ready(function () {
 		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
 	}
 });
+
+//modal cookies jquery
+//when document ready do ...
+$(document).ready(() => {
+    $('#cookiesModal').modal('show');
+});
+
 

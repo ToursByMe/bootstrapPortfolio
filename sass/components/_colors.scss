@@ -9,7 +9,8 @@ $myGapColor: #484848;
 
 //text-light
 $myLight: whitesmoke;
-//text
+
+
 
 body {
     background-color: $myBgc;
@@ -17,4 +18,7 @@ body {
 .navbar {
     background-color: $myBgc;
     
+}
+#fixedTop {
+    background-color: $myBgc;
 }
