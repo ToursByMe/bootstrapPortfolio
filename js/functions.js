@@ -14,6 +14,24 @@ class txtRotate {
         this.tick();
 
     }
+    get thistoRotate() {
+        return this.toRotate;
+    }
+    get thisEl() {
+        return this.el;
+    }
+    get thisloopNum() {
+        return this.loopNum;
+    }
+    get thisPeriod() {
+        return this.period;
+    }
+    get thisTxt() {
+        return this.txt;
+    }
+    get thisIsDeleting() {
+        return this.isDeleting;
+    }
 
     tick() {
 
@@ -89,17 +107,13 @@ let contactForm = document.getElementById('myForm');
 //addevent
 button1.addEventListener('click', checkForm);
 
-//contactLink.addEventListener('click', openContact);
-
 function checkForm (){
 
     //clean
     cleanStatus();
 
     //get everything you fool
-    let name    = document.getElementById('name').value;
-    //let eMail    = document.getElementById('mail').value;
-  
+    let name    = document.getElementById('name').value;  
 
     //let's check your body
     (name == "") ? checkName(name) : name;
@@ -136,20 +150,6 @@ const checkName = (word) => {
     return text;
 }
 
-
-//check mail
-/* const checkMail = (txt) => {
-
-    let answer;
-
-    //regex
-    let validForm = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-    (validForm.test(txt)) ?  answer = true : answer = document.getElementById('status1').innerHTML = "Not a valid form of mail you fool!"
-
-    return answer;
-} */
-
 //show year
 
 //get me dear mine
@@ -166,35 +166,7 @@ today.innerHTML = showYear();
  document.querySelector('.menu-btn').addEventListener('click', () => {
 
     document.querySelector('.nav-menu').classList.toggle('show');
- })
-
-
- //fixed menu top
-
-$(document).ready(function () {
-	let previousScroll = 0;
-	$(window).scroll(function () {
-		let currentScroll = $(this).scrollTop();
-		if (currentScroll < 100) {
-			//showTopNav();
-		} else if (currentScroll > 0 && currentScroll < $(document).height() - $(window).height()) {
-			if (currentScroll > previousScroll) {
-				hideNav();
-			} else {
-				showNav();
-			}
-			previousScroll = currentScroll;
-		}
-	});
-
-	function hideNav() {
-		$(".navbar").removeClass("is-visible").addClass("is-hidden");
-	}
-
-	function showNav() {
-		$(".navbar").removeClass("is-hidden").addClass("is-visible").addClass("scrolling");
-	}
-});
+ });
 
 //modal cookies jquery
 //when document ready do ...

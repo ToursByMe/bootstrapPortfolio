@@ -50,6 +50,10 @@ body {
   -ms-border-radius: 0;
   -o-border-radius: 0; }
 
+#photoHolder {
+  width: 65vw;
+  height: auto; }
+
 @media all and (max-width: 995px) {
   .display-2 {
     font-size: 5rem; }

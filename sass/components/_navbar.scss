@@ -26,6 +26,12 @@ li {
     }
 
 }
+
+@mixin myPhotoHolder {
+
+    width: 65vw;
+    height: auto;
+}
 //style liks
 
 .nav-main {
@@ -34,6 +40,10 @@ li {
 
 .modal-dialog {
     @include myCookies;
+}
+
+#photoHolder {
+    @include myPhotoHolder;
 }
 
 
