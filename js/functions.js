@@ -175,7 +175,7 @@ $(document).ready(() => {
 });
 
 //scroll view
-ScrollReveal().reveal('.myHeader');
+ScrollReveal().reveal('.myHeader', {delay:250});
 ScrollReveal().reveal('.aboutMe', {delay: 500});
 ScrollReveal().reveal('.services', {delay: 500});
 ScrollReveal().reveal('.works', {delay: 500});
