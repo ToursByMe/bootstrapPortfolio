@@ -176,9 +176,9 @@ $(document).ready(() => {
 
 //scroll view
 ScrollReveal().reveal('.myHeader', {delay:250});
-ScrollReveal().reveal('.aboutMe', {delay: 500});
-ScrollReveal().reveal('.services', {delay: 500});
-ScrollReveal().reveal('.works', {delay: 500});
-ScrollReveal().reveal('.contactMe', {delay: 500});
-ScrollReveal().reveal('.myFooter', {delay: 500});
+ScrollReveal().reveal('.aboutMe', {delay: 400});
+ScrollReveal().reveal('.services', {delay: 400});
+ScrollReveal().reveal('.works', {delay: 400});
+ScrollReveal().reveal('.contactMe', {delay: 400});
+ScrollReveal().reveal('.myFooter', {delay: 400});
 
