@@ -49,6 +49,9 @@
         -ms-transform: translateX(3rem) ;
         -o-transform: translateX(3rem) ;
 }
+.services ul li {
+    font-size: 14px;
+}
 }
 @media all and (max-width: 850px){
     .display-2 {
@@ -61,7 +64,9 @@
         font-size: 2rem;
     }
 
-
+    .services ul li {
+        font-size: 12px;
+    }
 }
 @media all and (max-width: 650px){
     .display-2 {
@@ -72,6 +77,9 @@
     }
     .display-4 {
         font-size: 1.8rem;
+    }
+    .services ul li {
+        font-size: 10px;
     }
     #photoHolder {
         width: 80vw;
@@ -85,6 +93,9 @@
     }
     .display-4 {
         font-size:2rem ;
+    }
+    .services ul li {
+        font-size: 9px;
     }
 
 }
