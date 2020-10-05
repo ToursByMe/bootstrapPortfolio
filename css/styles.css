@@ -99,10 +99,7 @@ html {
     -webkit-transform: translateX(3rem);
     -moz-transform: translateX(3rem);
     -ms-transform: translateX(3rem);
-    -o-transform: translateX(3rem); }
-
-  .services ul li {
-    font-size: 14px; } }
+    -o-transform: translateX(3rem); } }
 @media all and (max-width: 850px) {
   .display-2 {
     font-size: 3.5rem; }
@@ -111,10 +108,7 @@ html {
     font-size: 2.5rem; }
 
   .display-4 {
-    font-size: 2rem; }
-
-  .services ul li {
-    font-size: 12px; } }
+    font-size: 2rem; } }
 @media all and (max-width: 650px) {
   .display-2 {
     font-size: 3rem; }
@@ -125,9 +119,6 @@ html {
   .display-4 {
     font-size: 1.8rem; }
 
-  .services ul li {
-    font-size: 10px; }
-
   #photoHolder {
     width: 80vw;
     height: auto; } }
@@ -136,9 +127,6 @@ html {
     font-size: 2.5rem; }
 
   .display-4 {
-    font-size: 2rem; }
-
-  .services ul li {
-    font-size: 9px; } }
+    font-size: 2rem; } }
 
 /*# sourceMappingURL=styles.css.map */
