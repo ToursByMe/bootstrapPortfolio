@@ -57,6 +57,20 @@ html {
   width: 65vw;
   height: auto; }
 
+.navbar-toggler {
+  border: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0; }
+
+.navbar-toggler:focus {
+  background-color: transparent; }
+
+button:focus {
+  outline: transparent; }
+
 @media all and (max-width: 995px) {
   .display-2 {
     font-size: 5rem; }
@@ -100,7 +114,6 @@ html {
     -moz-transform: translateX(3rem);
     -ms-transform: translateX(3rem);
     -o-transform: translateX(3rem); } }
-    
 @media all and (max-width: 850px) {
   .display-2 {
     font-size: 3.5rem; }
